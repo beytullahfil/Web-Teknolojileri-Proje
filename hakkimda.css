@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image : linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/trabzon.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}  
+nav{
+    display: flex;
+    padding: 2% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #a5e8f4;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 1px;
+}
+.nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #a5e8f4;
+    display: block;
+    margin: auto;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 100%;
+    color: #a5e8f4;
+    position: relative;
+    margin-top: 10%;
+    left: 30%;
+    transform: translate(-30%,-30%);
+    text-align: center;
+
+}
+.text-box h1{
+    font-size: 40px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+}
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 40px;
+    }
+    .nav-links ul li {
+        display: block;
+    }
+    .nav-links{
+        position:absolute;
+        background: #a5e8f4;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+}
+.hakkında{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 90px;
+}
+.hakkında h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(54, 9, 9);
+    border-radius: 20px;
+    border-style:dashed;
+    border: 2px solid #a5e8f4;
+}
+.hakkında2 h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(54, 9, 9);
+    border-radius: 10px;
+    border-style: dashed;
+    border: 2px solid #a5e8f4;
+}
+.hakkında p{
+    color: rgb(54, 9, 9);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+
+}
+.hakkında h3{
+    color: rgb(54, 9, 9);
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+     
+}
+.hakkında-col{
+    flex-basis: 31%;
+    background: #a5e8f4;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.hakkında-col:hover{
+    box-shadow: 0 0 20px 0px rgba(1, 1, 0, 0.3);
+   
+}
+@media(max-width: 700px){
+    .row{
+       flex-direction: column;
+    }
+}
+.hakkında2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.hve-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.hve-col img{
+    width: 100%;
+    border-radius: 10px;
+
+    
+}
+.hve-col p{
+    padding: 0;
+    color: rgb(54, 9, 9);
+}
+.hve-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    color: rgb(54, 9, 9);
+}
+.hve-col1{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.hve-col1 p{
+    padding: 0;
+    color: rgb(54, 9, 9);
+}
+.hve-col1 img{
+    width: 100%;
+    border-radius: 10px;
+
+    
+}
+.hve-col1 h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    color: rgb(54, 9, 9);
+}
+.footer-basic {
+    padding:33px 0;
+    background-color:black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }  
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:50px;
+    height:50px;
+    line-height:45px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:3px solid rgb(255, 255, 255);
+    margin:0 8px;
+    color:inherit;
+   
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .social > .instagram:hover {
+   color: #833AB4;
+  }
+   
+   .footer-basic .social > .github:hover {
+    color: #6a737d;
+   }
+   
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
