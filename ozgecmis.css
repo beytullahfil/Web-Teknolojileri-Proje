@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,1);
+}
+.container .solbolge
+{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+
+}
+.profileText .imgBx
+{
+    position: relative;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.profileText h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.iletişim
+{
+    padding-top: 40px;
+}
+.başlık
+{
+    color: #03a9f4;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.iletişim ul
+{
+    position: relative;
+}
+.iletişim ul li
+{
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.iletişim ul li span
+{
+    color: #fff;
+    list-style: square;
+
+}
+.Eğitim .başlık{
+    padding-top: 20px;
+}
+
+.Eğitim li
+{
+    margin-bottom: 15px;
+
+}
+.Eğitim h5
+{
+    color: #fff;
+    font-weight: 500;
+}
+.Eğitim h4
+{
+    color: #fff;
+    font-weight: 500;   
+}
+.Dil .text
+{
+    color: #fff;
+}
+.Dil .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+.Dil .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #547483 ;
+}
+.container .sagbolge
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.hakkında
+{
+    margin-bottom: 50px;
+
+}
+.hakkında:last-child
+{
+    margin-bottom: 0;
+
+}
+.başlık2
+{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+article
+{
+    color: #333;
+}
+.beceriler .box
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.beceriler .box h4
+{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 800;
+    padding: 10%;
+}
+.beceriler .box .percent
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+}
+.beceriler .box .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+@media screen and (max-width: 1000px){
+    .container{
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+ }
