@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>ŞEHRİM</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+  <style>
+    .navbar
+    {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    background-image : linear-gradient(rgba(0,0,30,0.7),rgba(0,0,0,0.7)),url(images/sea.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+    .col{
+    flex-basis: 50%;
+}
+    .logo
+    {   
+    padding-top: 1px;
+    padding-left: 1px;
+    width: 40%;
+    cursor: default;
+    }
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  .row1{
+    display: inline-block;
+    height: 80%;
+    align-items: center;
+    justify-content: space-between;
+    
+    }
+    button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    }
+    .slider
+    {
+    overflow: hidden;
+    width: 50%;
+    height: 300px;
+    position: relative;
+    margin-left: 5%;
+    box-shadow: 1px 2px 10px 5px white;
+    
+    }
+    .slider img{
+    
+    animation:slider 9s infinite;
+    float: left;
+    }
+    .container1
+    {
+    width: 100%;
+    height: 100vh;
+    background-image : linear-gradient(rgba(0,0,30,0.7),rgba(0,0,0,0.7)),url(images/aaaa.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    }
+    .row1{
+    display: flex;
+    height: 80%;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .container-fluid.bg-3.text-center{
+        
+    background-image : linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/backgroundbluered.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    }
+    
+      .footer-basic {
+    padding:33px 0;
+    background-color:black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }  
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:50px;
+    height:50px;
+    line-height:45px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:3px solid rgb(255, 255, 255);
+    margin:0 8px;
+    color:inherit;
+   
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .social > .instagram:hover {
+   color: #833AB4;
+  }
+   
+   .footer-basic .social > .github:hover {
+    color: #6a737d;
+   }
+   
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+    .carousel-indicators {
+      bottom: 0px;
+    @media screen and (max-width: 1000px){
+    #myCarousel {
+      width: 150px;
+      margin-left: 0px;
+    }
+    
+    
+ }
+
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+        <img src="images/trabzonbelediye.jpg" class="logo">
+    </div>
+    
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container1">
+<div class="row1">
+    <div class="col">
+        <h1>TRABZON</h1>
+        <p>Trabzon Karadeniz Bölgesi'nin değerli ve önemli şehirlerinden bir tanesidir. Tarihi ile bir çok imparatorluğa misafirlik yapmıştır.Nüfusu tahminlere göre 824.352'dir.</p>
+        <button onclick="window.location.href = 'https://tr.wikipedia.org/wiki/Trabzon#';" type="button"> İNCELE</button>
+    </div>
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <a href="#ayasofya"><img src="images/ayasofya.jpg"  style="width:100%;"></a>
+          </div>
+    
+          <div class="item">
+            <a href="#sümela"><img src="images/sümela.jpeg"  style="width:100%;"></a>
+          </div>
+        
+          <div class="item">
+            <a href="#kizlar"><img src="images/kızlarmanastiri.jpg"  style="width:100%;"></a>
+          </div>
+          <div class="item">
+            <a href="#uzungol"><img src="images/uzungol.jpg"  style="width:100%;"></a>
+          </div>
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    
+</div>
+</div>
+
+
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">AYASOFYA MÜZESİ</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Orta Çağda denize yakın bir konumda ve tepelik bir arazi üzerinde inşa edilmiş bir manastır kilisesi idi. 
+        Trabzon Rum İmparatorluğu’nun günümüze ulaşan en iyi korunmuş anısı kabul edilir. 
+        Bizans taşra üslubu ile, Gürcü soğan kubbe, Selçuklu taş işçiliğinin bir uyum içinde kullanıldığı sıra dışı bir mimarisi vardır.</p>
+    </div>
+    <div class="col-sm-4"> 
+      <p>Trabzon İmparatorluğu döneminde Kutsal Bilgelik'e adanmış kiliselerden biri olan Ayasofya, tarih boyunca farklı işlevlerle kullanıldı. 
+        16. veya 17. yüzyılda cami, I. Dünya Savaşı yıllarındaki Rus işgali sırasında askerî karargâh, hastane, depo; sonra yine cami oldu; 
+        1964 yılında müzeye dönüştürüldü. Yapı, 2013'te müze işlevini yitirdi, yeniden cami olarak ibadete açıldı.</p>  
+    </div>
+    <div class="col-sm-4"> 
+      <a name="ayasofya">
+      <img src="images/ayasofya.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </a>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-3 text-center">    
+    <h3 class="margin">SÜMELA MANASTIRI</h3><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <p>Trabzon’un Maçka İlçesi’ndeki Sümela Manastırı, Altındere Vadisi’ndeki Karadağ’ın yamacında sarp bir kayalığa inşa edilmiştir. 
+            Dağa yapışmış gibi görünen manastır, yaslandığı doğanın güzelliğiyle nefes keser. 
+            Tam adı Panagia Sumela (Sümela Meryemi) veya Theotokos Sumela ancak “Meryem Ana” diye de biliniyor.</p>
+      </div>
+      <div class="col-sm-4"> 
+        <p>Denizden 1150, vadiden 300 metre yüksekteki bu Rum Ortodoks manastır ve kilise kompleksi, UNESCO “Dünya Kültür Mirası Geçici Listesi”nde yer alıyor. 
+            Bölgenin en önemli manastırı Sümela, keşiş yetiştiren bir okuldu. 
+            Mucize gerçekleştirdiğine inanılan bir ikona muhafaza ettiği çok kutsaldı.</p>
+      </div>
+      <div class="col-sm-4"> 
+        <a name="sümela"><img src="images/sümela.jpeg" class="img-responsive margin" style="width:100%" alt="Image"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-3 text-center">    
+    <h3 class="margin">KIZLAR MANASTIRI</h3><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <p> Manastır, 14. yüzyılda inşa edilmiştir ve Bizans dönemindeki önemli yapılarından biridir. 
+            Manastır, İmparator III. Aleksios döneminde (1349-1390) inşa edilmiş olup, 
+            özellikle 19. yüzyılın başlarına kadar Bizans Ortodoks manastır geleneğini sürdürmüştür.</p>
+      </div>
+      <div class="col-sm-4"> 
+        <p>Manastırın asıl adı Panagia Theoskepastos'dur, ancak yaygın olarak Kızlar Manastırı olarak bilinmektedir. 
+            Bu isim, manastırın Trabzon İmparatoru I. Manuel Komnenos'un kızı olan Maria'nın burada yaşamasından kaynaklanmaktadır. 
+            Maria, manastırın inşası için finansal destek sağlamış ve manastırın tesisatını sağlamlaştırmıştır.</p>
+      </div>
+      <div class="col-sm-4"> 
+        <a name="kizlar"><img src="images/kızlarmanastiri.jpg" class="img-responsive margin" style="width:100%" alt="Image"></a>
+        
+      </div>
+    </div>
+
+  </div>
+  <div class="container-fluid bg-3 text-center">    
+    <h3 class="margin">UZUNGÖL</h3><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <p>Uzungöl, Türkiye'nin Trabzon ilinde yer alan bir heyelan set gölüdür. Çaykara ilçesinin Uzungöl Mahallesi'nde bulunur.</p>    
+      </div>
+      <div class="col-sm-4"> 
+        <p>Yamaçlardan düşen kayaların, Haldizen deresinin önünü kapatmasıyla oluşmuştur. 
+            Uzunluğu 1.000 m, genişliği 500 m, alanı 500.000 ha olan gölün en derin yeri 15 m'dir.
+            2004 yılında DSİ'nin gölde gerçekleştirdiği rusubat temizliği sonucunda göl alanı %67 büyümüştür.
+            Uzungöl, 3 Ekim 1989'da ilan edilen Uzungöl Tabiat Parkı'nın bir parçasıdır.</p>
+
+      </div>
+      <div class="col-sm-4"> 
+        <a name="uzungol"><img src="images/uzungol.jpg" class="img-responsive margin" style="width:100%" alt="Image"></a>
+        
+      </div>
+    </div>
+  </div>
+
+  
+
+<!-- Footer -->
+<footer class="footer-basic">
+  <div class="social">
+      <a href="https://www.instagram.com/beytullahfil" target="_blank"><i class="fa fa-instagram"></i></a> 
+      <a href="https://github.com/beytullahfil" target="_blank"><i class="fa fa-github"></i></a>
+  </div>
+ 
+  <p class="copyright">Beytullah FİL © 2024</p>
+</footer>
+
+</body>
+</html>
