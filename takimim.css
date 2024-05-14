@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+#header
+{
+    background-image: url(images/tsarkaa.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-nav li a{
+    float: right;
+    color: #fff!important;
+}
+.navbar-brand img{
+    width: 150px;
+    margin-left: 30px;
+}
+.navbar-toggle{
+    border: none!important;
+    outline: none!important;
+    
+}
+nav .fa-bars{
+    color: #fff;
+    font-size: 26px;
+}
+.welcome{
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgb(54, 9, 9);
+}
+.welcome h1{
+    color: rgb(54, 9, 9);
+}
+.welcome .home-btn{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color:rgb(54, 9, 9);
+    background-color:#a5e8f4;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.welcome .btn:focus
+{
+    box-shadow: none;
+}
+#about h3{
+    text-align: center;
+    color: rgb(54, 9, 9);
+    font-size: 40px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    background-color: #a5e8f4;
+
+
+}
+.row-title{
+    background-color:#a5e8f4;
+}
+#about .col-md-6 {
+    padding: 20px auto;
+    
+}
+p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.başarılar{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ .container{
+    background-color: rgba(109, 105, 105, 0.695);
+
+}
+.başarılar .col-md-6{
+    padding: 20px;
+}
+
+.carousel-inner img
+{
+    position: relative;
+    width: 30%;
+    margin: auto;
+    padding-bottom: 8%;
+
+}
+.row .home-btn{
+    width: 180px;
+    padding: 12px 0;
+    margin-left: 44%;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    outline: none;
+    align-items: center;
+    color: rgb(54, 9, 9);
+    background-color: #a5e8f4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.row .home-btn:focus
+{
+    box-shadow: none;
+}
+.container1
+{
+    background-color: rgb(54, 9, 9);
+} 
+.başarılar-right ul li 
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:18px;
+} 
+#footer{
+    padding: 100px;
+    background-color: rgb(54, 9, 9);
+    color:rgb(54, 9, 9);
+}
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1px 2px;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #a5e8f4;
+    color: #a5e8f4;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #a5e8f4;
+    color: rgb(54, 9, 9);
+  }
+  .fa-instagram {
+    background: #a5e8f4;
+    color: rgb(54, 9, 9);
+  }
+  #footer h3{
+    text-align: center;
+    color: rgba(109, 105, 105, 0.695);
+    font-size: 40px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color:  rgb(54, 9, 9);
+  }
+  .col-md-3 .home-btn{
+      margin: auto;
+      padding: 8px;
+      background-color: #a5e8f4;
+  }
