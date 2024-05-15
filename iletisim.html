@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <title>İletişim Sayfası</title>
+    <meta charset="utf-8"> 
+    <link rel="stylesheet" href="iletisim.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="iform">
+        <h1>İLETİŞİM</h1>
+    </div>
+    <div class="main">
+    <form name="myForm" onsubmit="return validateForm()" action="iletisim.php" method="POST" role="form">
+        
+        <h2 class="name"> Adınız:</h2>  
+        <input class="adı" type="text" name="adı" placeholder="Adınızı Giriniz" >
+        <h2 class="name"> Soyadınız:</h2>
+        <input class="soyadı" type="text" name="soyadı" placeholder="Soyadınızı Giriniz">
+        
+        <h2 class="name">Cinsiyet:</h2>
+        <input type="radio" class="cinsiyet" name="cinsiyet" value="Erkek">
+        <label class="cs" for="cinsiyet">Erkek</label>
+        <input type="radio" class="cinsiyet" name="cinsiyet" value="Kadın">
+        <label class="cs" for="cinsiyet">Kadın</label>
+
+
+
+        <h2 class="name">Parola:</h2>
+        <input class="parola" type="password" name="parola" >
+
+        <h2 class="name_özel">Kullandığınız Sosyal Medya Hesapları:</h2>
+        <label><input type="checkbox" class="sm" name="sosyalmedya[]" value="Facebook"/> Facebook</label><br/>
+        <label><input type="checkbox" class="sm" name="sosyalmedya[]" value="Whatsapp"/> Whatsapp</label><br/>
+        <label><input type="checkbox" class="sm" name="sosyalmedya[]" value="Twitter"/> Twitter</label><br/>
+        <label><input type="checkbox" class="sm" name="sosyalmedya[]" value="İnstagram"/> İnstagram</label><br/>
+
+        <h2 class="name">Öğrenci Numarası</h2>
+        <input class="öğrencino" type="text" name="öğrencino" placeholder="Öğrenci numaranızı Giriniz" autocomplete="on">
+
+        <h2 class="name">E-mail</h2>
+        <input class="email" type="email" name="email" placeholder="Emailnizi Giriniz">
+
+        <h2 class="name">Okulunuz</h2>
+        <input class="okul" type="text" name="okul" value="Sakarya Üniversitesi" readonly>
+
+        <h2 class="name">Adres</h2>
+        <textarea class="adres" name="adres" rows="10" cols="60" placeholder="Adresinizi yazınız"></textarea>
+    
+        <h2 class="name">Telefon Numarası</h2>
+        <input class="telno" type="text" name="telno" placeholder="Telefon numaranızı Giriniz">
+    
+        <h2 class="name">Ders</h2>
+        <select class="ders" name="dersler">
+            <option disabled="disabled" > Dersinizi Seçiniz</option>
+            <option value="Web Teknolojileri" selected> Web Teknolojileri</option>
+            <option value="Nesneye Dayalı Programlama"> Nesneye Dayalı Programlama</option>
+            <option value="Olasılık ve İstatistik">Olasılık ve İstatistik</option>
+            <option value="Matematik"> Matematik </option>
+            <option value="Fizik"> Fizik </option>
+        </select>
+
+        <h2 class="name">Kullandığınız Tarayıcı</h2>
+        <label class="label1" for="tarayici"></label>
+        <input list="tarayicilar" name="tarayici" id="tarayici">
+        <datalist id="tarayicilar">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+        <br>
+        <br>
+        <input class="button" type="submit" value="GÖNDER"></input>
+        <input class="button" type="reset" value="TEMİZLE"></input>
+
+    </form>
+</div>
+</body>
+<footer class="footer-basic">
+    <div class="social">
+        <a href="https://www.instagram.com/beytullahfil/?hl=tr" target="_blank"><i class="fa fa-instagram"></i></a> 
+        <a href="https://github.com/beytullahfil" target="_blank"><i class="fa fa-github"></i></a>
+    </div>
+   
+    <p class="copyright">Beytullah FİL © 2024</p>
+</footer>
+<script>
+	function validateForm() {
+		var adı = document.forms["myForm"]["adı"].value;
+		var soyadı = document.forms["myForm"]["soyadı"].value;
+		var email = document.forms["myForm"]["email"].value;
+		var öğrencino = document.forms["myForm"]["öğrencino"].value;
+		var cinsiyet = document.forms["myForm"]["cinsiyet"].value;
+	
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (adı == null || adı == "", soyadı == null || soyadı == "", email == null || email == "", cinsiyet == null || cinsiyet == "",öğrencino == null || öğrencino == "") {
+			alert("Tüm alanlar dolu olmalıdır!");
+			return false;
+		} else if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= email.length) {
+			alert("Lütfen geçerli bir mail adresi girin...");
+			return false;
+		} else {
+			return true;
+		}
+	}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>

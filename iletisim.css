@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-image: url(images/iletisim.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+
+}
+.iform{
+    width: 800px;
+    background-color: rgba(26, 69, 200, 0.34);
+    margin: auto;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+.main{
+    background-color: rgba(26, 69, 200, 0.34);
+    width: 800px;
+    margin: auto;
+}
+form{
+    padding: 10px;
+}
+
+.name{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    display: block;
+    
+}
+.name_özel{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 500px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    display: block;
+}
+.adı{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.soyadı{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+.öğrencino{
+    position: relative;
+    left: 200px;
+    top: -45px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+#cinsiyet{
+    margin-left: 25px;
+    color: white;
+    font-size: 22px;
+}
+.cinsiyet{
+    margin-left: 25px;
+    color: white;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}   
+.sm{
+    margin-left: 25px;
+    color: white;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}   
+.parola{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.email{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.adres{
+    position: relative;
+    left: 100px;
+    top:-20px;
+}
+.okul{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.telno{
+    position: relative;
+    left: 200px;
+    top: -45px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.ders{
+    position: relative;
+    left: 200px;
+    top: -21px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+#tarayici{
+    position: relative;
+    left: 170px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.cs{
+    color: white;
+}
+input.sm{
+    color: #FFFFFF;
+}
+.label1{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+.button{
+    background-color: darkblue;
+    display: inline;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid white;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+}
+.footer-basic {
+    padding:33px 0;
+    background-color:black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }  
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:50px;
+    height:50px;
+    line-height:45px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:3px solid rgb(255, 255, 255);
+    margin:0 8px;
+    color:inherit;
+   
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .social > .instagram:hover {
+   color: #833AB4;
+  }
+   
+   .footer-basic .social > .github:hover {
+    color: #6a737d;
+   }
+   
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+ 
